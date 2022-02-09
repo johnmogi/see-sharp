@@ -10,11 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            String x = "Hello world";
             bool b = false;
             int i = 1220;
+            String newVar, anotherVar;
+            // anotherVar is empty, un assigned...
 
-            Console.WriteLine(x);
+            newVar = "I can declare it before asignment";
+
+            String x = "Hello world ", y = "my name is ", z = "Inigo Montoya";
+
+
+            Console.WriteLine(x + y + z);
         }
     }
 }
